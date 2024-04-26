@@ -10,6 +10,7 @@ fetch("https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json
 		if (response.ok) {
 			console.log("status: " + response.status);
 			console.log(response);
+			return response.json();
 		} else {
 			console.log("An error occured while fetching response");
 		}

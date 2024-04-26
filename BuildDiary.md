@@ -3,3 +3,5 @@
 - today i got the react router to work, fixed an issue as the way you load your routes changes from using `component={home}` to `element={<Home />}`. I had to figure that out myself using the react--route doc.
 - I need to get the .fetch() working by the week.
 - I decided to journal since i don't want to forget what i know, more specifically be able to talk about things i have done.
+- `bug solved` I had a problem my fetch was returning *undefined* struggled for like to days, but the issue was i needed to `return response.json()`.
+- the fetch() method is build to be flexible and return different types of data: images, plain text, xml, ect. therefore forcing it to have a return response.json by default would limit it's flexibility, i was thinking the response.json() is returned by default but you have to specify.
