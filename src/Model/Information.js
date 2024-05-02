@@ -5,7 +5,7 @@ function Information() {
 }
 
 // console.log("This code must run once");
-fetch("https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json")
+fetch("http://localhost:8080/users")
 	.then(response => {
 		if (response.ok) {
 			console.log("status: " + response.status);
