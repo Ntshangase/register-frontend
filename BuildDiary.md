@@ -5,3 +5,8 @@
 - I decided to journal since i don't want to forget what i know, more specifically be able to talk about things i have done.
 - `bug solved` I had a problem my fetch was returning *undefined* struggled for like to days, but the issue was i needed to `return response.json()`.
 - the fetch() method is build to be flexible and return different types of data: images, plain text, xml, ect. therefore forcing it to have a return response.json by default would limit it's flexibility, i was thinking the response.json() is returned by default but you have to specify.
+
+# week I don't know.
+- The APIs' is working.
+- Fixed the CORS issue, then i had to do some `ObjectMapping` using the `Jackson core` dependency.
+- I also learned a lot about List<> and ArrayList<>();
