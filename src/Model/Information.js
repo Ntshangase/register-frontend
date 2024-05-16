@@ -1,22 +1,34 @@
 import { useState } from "react";
 
 function Information() {
-	let [currentPlate, setPlate] = useState("BB 78 ZN");
+	const [currentCount, setCount] = useState([
+		{ name: "simphiwe", course: "mathematics", id: 2268 },
+		{ name: "Thandeka", course: "English", id: 2345 },
+	]);
 
 	//change numberPlate
-	//let x = 0;
-	//const arr = ["BB 79 ZN", "BC 80 ZN", "BD 81 ZN", "BF 82 ZN", "BG 83 ZN", "BH 83 ZN"];
+	console.log(currentCount);
 
 	//wrap inside function
-	function updatePlate() {
-		setPlate("him zn");
+	function updateCount() {
+		setCount((prevState) => ([...prevState, {name:"Joshua", course:"Physics", id: 2300}]));
 	}
 
 	return (
 		<>
-			<p>car 1: {currentPlate}</p>
+			<div>
+				<h3>{currentCount.name}</h3>
+				<p>{currentCount.course}</p>
+				<p>{currentCount.id}</p>
+			</div>
 
-			<button onClick={ () => {updatePlate()}}>New Plate</button>
+			<button
+				onClick={() => {
+					updateCount();
+				}}
+			>
+				Update
+			</button>
 		</>
 	);
 }
