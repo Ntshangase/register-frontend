@@ -15,3 +15,4 @@
 - API GOD vs CORS KING
 - I have managed to get a collection of data to be in a json format, hardwork paysoff.
 - The net goals are figure out the use state in javascript and understand its implimentation, From what i know i like this because i allows you to store data from an outside source into the application without having to make the call everytime you use the data.
+- safe to say i have an understanding of the map() function.

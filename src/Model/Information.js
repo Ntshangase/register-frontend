@@ -16,12 +16,6 @@ function Information() {
 
 	return (
 		<>
-			<div>
-				<h3>{currentCount.name}</h3>
-				<p>{currentCount.course}</p>
-				<p>{currentCount.id}</p>
-			</div>
-
 			<button
 				onClick={() => {
 					updateCount();
@@ -29,6 +23,19 @@ function Information() {
 			>
 				Update
 			</button>
+
+			<h1>Render elements</h1>
+			<div>
+				{currentCount.map((item) => (
+					<div key={item.id}>
+						<h6>{item.name}</h6>
+						<h6>{item.course}</h6>
+						<p>{item.id}</p>
+						<p></p>
+					</div>
+				))}
+			</div>
+			
 		</>
 	);
 }
