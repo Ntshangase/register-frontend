@@ -4,7 +4,6 @@ function Information() {
 	const [currentData, setData] = useState([]);
 
 	//fetch data from API	http://localhost:8080/users
-	console.log("This code must run once");
 	useEffect(() => { fetch("https://dummyjson.com/users")
 		.then((response) => {
 			if (response.ok) {
@@ -14,11 +13,11 @@ function Information() {
 			} else {
 				console.log("An error occured while fetching response");
 			}
-		}
+		})
 		.then((data) => {
 			console.log(data.users);
 			setData(data.users);
-		})},[]);
+		})},[setData]);
 
 	return (
 		<>
