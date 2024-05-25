@@ -1,3 +1,6 @@
+# Phase 1.
+- setup fullstack project.
+
 ## week 2
 - the first week wasn't journaled but i basically created the backend using java springboot and I did the APIs, now i have them waiting to connect. I also managed to create the frontend with react, JSX, which is like react saying just write your javascript and we will handle the rendering.
 - today i got the react router to work, fixed an issue as the way you load your routes changes from using `component={home}` to `element={<Home />}`. I had to figure that out myself using the react--route doc.
@@ -16,3 +19,4 @@
 - I have managed to get a collection of data to be in a json format, hardwork paysoff.
 - The net goals are figure out the use state in javascript and understand its implimentation, From what i know i like this because i allows you to store data from an outside source into the application without having to make the call everytime you use the data.
 - safe to say i have an understanding of the map() function.
+- phase 1 done.
