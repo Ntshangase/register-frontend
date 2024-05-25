@@ -10,5 +10,8 @@
 - JAVASCRIPT
 - React using create react app
 
-### Functionalities
+## Functionalities
 - Backend + Frontend communication through `REST APIs`
+
+## Design
+
