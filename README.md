@@ -14,4 +14,5 @@
 - Backend + Frontend communication through `REST APIs`
 
 ## Design
+![UIDesign](https://github.com/Ntshangase/register-frontend/assets/62051440/3dead938-f995-472a-ba03-e98f7cc2ec5d)
 
