@@ -1,7 +1,7 @@
 import '../Styles/Home.css';
 
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import Navbar from '../Model/Navbar';
 
 export default function Home() {
 
@@ -10,11 +10,7 @@ export default function Home() {
 
   return (
     <div>
-      <nav>
-        <Link to='./Record'>Record</Link>
-        <Link>Manage</Link>
-        <Link>Students</Link>
-      </nav>
+      <Navbar/>
       <h2>Welcome to student register application</h2>
       <div>
         <button>Create</button>

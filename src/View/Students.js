@@ -1,11 +1,13 @@
 // for viewing students records on students.txt. READ
 
 import React from 'react'
+import Navbar from '../Model/Navbar'
 
 function Students() {
   return (
     <div>
-        <h2>Display student data</h2>
+      <Navbar/>
+      <h2>Display student data</h2>
     </div>
   )
 }
