@@ -7,6 +7,12 @@ function Manage() {
 		<div>
 			<Navbar/>
 			<h2>Manage student data</h2>
+
+			<div>
+				<p>studentId</p>
+				<button>Edit</button>
+				<button>Delete</button>
+			</div>
 		</div>
 	);
 }
