@@ -20,3 +20,10 @@
 - The net goals are figure out the use state in javascript and understand its implimentation, From what i know i like this because i allows you to store data from an outside source into the application without having to make the call everytime you use the data.
 - safe to say i have an understanding of the map() function.
 - phase 1 done.
+
+# Phase 2
+- Build the project design
+
+## week
+- This thing of data wants to be a problem now, I need to prevent before i face the brunt of it. Technically forced to take a day off the other day because of low data and having to share it with school work.
+- building UI, funny this is I should be doing the exactly same thing with school work but here I am.
