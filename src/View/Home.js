@@ -1,12 +1,8 @@
-import '../Styles/Home.css';
-
+import '../Styles/home.css';
 import React from 'react';
 import Navbar from '../Model/Navbar';
 
 export default function Home() {
-
- 
-
 
   return (
     <div>
