@@ -8,10 +8,13 @@ p {
 #manage {
     margin: 20px;
     display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
 }
 
 .buttonDiv {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 button {
