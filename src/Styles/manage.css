@@ -1,0 +1,24 @@
+
+h2 {
+    margin: 20px;
+}
+p {
+    font-size: 24px;
+}
+#manage {
+    margin: 20px;
+    display: flex;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+}
+button {
+    font-size: 24px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+}

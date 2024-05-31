@@ -1,6 +1,7 @@
 // for updating and deleting students from students.txt. UPDATE-DELETE
 import React from "react";
 import Navbar from "../Model/Navbar";
+import '../Styles/manage.css';
 
 function Manage() {
 	return (
@@ -8,10 +9,12 @@ function Manage() {
 			<Navbar/>
 			<h2>Manage student data</h2>
 
-			<div>
+			<div id="manage">
 				<p>studentId</p>
+				<div className='buttonDiv'>
 				<button>Edit</button>
 				<button>Delete</button>
+				</div>
 			</div>
 		</div>
 	);
