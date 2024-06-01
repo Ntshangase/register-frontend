@@ -25,7 +25,7 @@ export default function Record() {
 					<input />
 				</p>
 
-				<button>Add</button>
+				<button>add</button>
 			</form>
 		</div>
 	);

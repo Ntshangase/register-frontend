@@ -12,8 +12,8 @@ function Manage() {
 			<div id="manage">
 				<p>studentId</p>
 				<div className='buttonDiv'>
-				<button>Edit</button>
-				<button>Delete</button>
+				<button>edit</button>
+				<button>delete</button>
 				</div>
 			</div>
 		</div>
