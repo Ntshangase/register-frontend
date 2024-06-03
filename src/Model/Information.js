@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Students from "../View/Students";
 
 function Information() {
 	const [currentData, setData] = useState([]);
@@ -21,6 +22,8 @@ function Information() {
 
 	return (
 		<>
+			<Students props={100} />	{/**passing props to a child component */}
+
 			<div>
 				<h1>Home renovations</h1>
 			</div>

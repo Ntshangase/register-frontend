@@ -3,7 +3,8 @@
 import React from "react";
 import Navbar from "../Model/Navbar";
 
-function Students() {
+function Students(props) {
+	console.log(props);
 	return (
 		<div>
 			<Navbar />
