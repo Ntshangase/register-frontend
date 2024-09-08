@@ -27,3 +27,6 @@
 ## week
 - This thing of data wants to be a problem now, I need to prevent before i face the brunt of it. Technically forced to take a day off the other day because of low data and having to share it with school work.
 - building UI, funny this is I should be doing the exactly same thing with school work but here I am.
+
+## Phase 3
+-  Introduction to macbook operating system
